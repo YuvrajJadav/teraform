@@ -4,7 +4,7 @@ import boto3
 import base64
 import json
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 session = boto3.session.Session()
 client = session.client(
